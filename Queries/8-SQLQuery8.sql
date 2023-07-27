@@ -1,5 +1,5 @@
 CREATE TABLE Management (
-  UsersID int primary key,
+  UsersID int,
   Offers int,
   Indicator float(53)
 );

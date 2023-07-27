@@ -1,4 +1,4 @@
 CREATE TABLE Status (
-  OfferID int primary key,
+  OfferID int,
   DSCP nvarchar(MAX)
 );
