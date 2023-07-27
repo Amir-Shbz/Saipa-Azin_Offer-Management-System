@@ -1,4 +1,4 @@
 CREATE TABLE Committee (
-  UserID int primary key,
+  UsersID int primary key,
   Offers int
 );

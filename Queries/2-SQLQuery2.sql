@@ -1,5 +1,5 @@
 CREATE TABLE Proposers (
   ID int primary key,
-  PersonnelID int,
+  PerID int,
   OfferID int,
 );

@@ -1,4 +1,4 @@
 CREATE TABLE Team (
-  UserID int primary key,
+  UsersID int primary key,
   offers int
 );
