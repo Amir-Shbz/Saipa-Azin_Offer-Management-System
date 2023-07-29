@@ -1,1 +1,1 @@
-create table SaipaAz_Db
+create database SaipaAz_Db;
