@@ -1,4 +1,7 @@
+use SaipaAz_Db
+
 CREATE TABLE Committee (
-  UsersID int primary key,
+  CmtID int primary key,	 
+  UsersID int,
   Offers int
 );

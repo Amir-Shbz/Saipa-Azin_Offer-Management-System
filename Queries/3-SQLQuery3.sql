@@ -1,3 +1,5 @@
+use SaipaAz_Db
+
 CREATE TABLE Offer (
   OfferID int primary key,
   [Date] Date,
@@ -7,6 +9,6 @@ CREATE TABLE Offer (
   Description nvarchar(MAX),
   Reviwer int,
   OfferBenefits int,
-  [Status] nvarchar(MAX),
+  [Status] int,
   Field nvarchar(MAX)
 );

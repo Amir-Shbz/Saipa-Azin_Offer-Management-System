@@ -1,4 +1,7 @@
+use SaipaAz_Db
+
 CREATE TABLE Team (
-  UsersID int primary key,
+  TeamID int primary key,
+  UsersID int,
   offers int
 );

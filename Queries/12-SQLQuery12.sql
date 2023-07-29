@@ -1,4 +1,7 @@
+use SaipaAz_Db
+
 CREATE TABLE CEO (
-  UserID int primary key,
+  CeoID int primary key,
+  UserID int,
   Offers int
 );

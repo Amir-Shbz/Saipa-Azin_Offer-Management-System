@@ -1,3 +1,5 @@
+use SaipaAz_Db
+
 CREATE TABLE Meeting_Minutes (
   MeetingMinutesID int primary key,
   Number int,
