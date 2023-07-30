@@ -1,11 +1,7 @@
 use SaipaAz_Db
 
-CREATE TABLE Meeting_Minutes (
-  MeetingMinutesID int primary key,
+create table PerMeet (
+  PersID int,
   MeetingID int,
-  Number int,
-  [Date] Date,
-  StartTime TIME,
-  [Subject] nvarchar(MAX),
-  Reward MONEY
+  primary key (PersID, MeetingID)
 );
