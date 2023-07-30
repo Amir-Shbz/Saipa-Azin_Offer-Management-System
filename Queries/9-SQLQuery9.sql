@@ -1,8 +1,8 @@
 use SaipaAz_Db
 
-CREATE TABLE Meeting_Minutes (
+CREATE TABLE MeetingMinutes (
   MeetingMinutesID int primary key,
-  MeetingID int,
+  MeetingID int UNIQUE,
   Number int,
   [Date] Date,
   StartTime TIME,
