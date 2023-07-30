@@ -2,12 +2,10 @@ use SaipaAz_Db
 
 CREATE TABLE Meeting_Minutes (
   MeetingMinutesID int primary key,
+  MeetingID int,
   Number int,
   [Date] Date,
   StartTime TIME,
-  Subject TIME,
-  Attendees int,
-  Offers int,
-  Statuses int,
-  Reward MONEY,
+  [Subject] nvarchar(MAX),
+  Reward MONEY
 );

@@ -1,6 +1,6 @@
 use SaipaAz_Db
 
 create table Organizations (
-	UnitID int primary key,
+	OrgID int primary key,
 	[Name] nvarchar(200)
 );

@@ -1,7 +1,6 @@
 use SaipaAz_Db
 
 CREATE TABLE Proposers (
-  ID int primary key,
-  PerID int,
+  PropID int primary key,
   OfferID int,
 );

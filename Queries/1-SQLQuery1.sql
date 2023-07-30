@@ -1,8 +1,8 @@
 use SaipaAz_Db
 
 CREATE TABLE Personnel (
-  UserID int Primary Key,
+  PersID int Primary Key,
+  OrgID int,
   [Name] nvarchar(100),
-  UnitID int,
   Telephone nvarchar(100)
 );
