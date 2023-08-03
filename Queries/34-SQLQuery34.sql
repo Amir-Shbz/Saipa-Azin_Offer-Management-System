@@ -1,0 +1,4 @@
+CREATE VIEW ShowBenefits
+AS
+SELECT DSCP
+FROM dbo.Benefits

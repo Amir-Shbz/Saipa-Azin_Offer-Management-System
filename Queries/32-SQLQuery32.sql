@@ -1,0 +1,4 @@
+CREATE VIEW ShowFields
+AS
+SELECT DSCP
+FROM dbo.Fields

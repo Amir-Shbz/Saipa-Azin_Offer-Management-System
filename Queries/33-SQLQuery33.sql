@@ -1,0 +1,4 @@
+CREATE VIEW ShowStatus
+AS
+SELECT DSCP
+FROM dbo.[Status]
